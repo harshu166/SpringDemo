@@ -1,0 +1,9 @@
+com\fico\demo\dal\model\test\ItemTest.class
+com\fico\demo\dal\model\test\CategoryTest.class
+com\fico\demo\dal\model\test\Categories.class
+com\fico\demo\dal\config\test\DatabaseConfigEmptySetUp.class
+com\fico\demo\dal\dao\test\ItemDaoTest$ItemDaoOptimisticScenariosTest.class
+com\fico\demo\dal\model\test\Items.class
+com\fico\demo\dal\config\test\DatabaseConfigSetUp.class
+com\fico\demo\dal\dao\test\ItemDaoTest$ItemDaoEmptyDbScenariosTest.class
+com\fico\demo\dal\dao\test\ItemDaoTest.class

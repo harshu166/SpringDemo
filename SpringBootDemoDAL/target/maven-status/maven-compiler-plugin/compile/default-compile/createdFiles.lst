@@ -1,0 +1,13 @@
+com\fico\demo\dal\model\Category.class
+com\fico\demo\dal\model\Item.class
+com\fico\demo\dal\model\AbstractEntity.class
+com\fico\demo\dal\dao\ItemDao$ItemRowMapper.class
+com\fico\demo\dal\exception\EntityPersistenceException.class
+com\fico\demo\dal\config\DataSourceConfiguration.class
+com\fico\demo\dal\exception\ServiceException.class
+com\fico\demo\dal\business\ItemService.class
+com\fico\demo\dal\dao\CategoryDao$CategoryRowMapper.class
+com\fico\demo\dal\dao\ItemDao.class
+com\fico\demo\dal\dao\CategoryDao.class
+com\fico\demo\dal\business\CategoryService.class
+com\fico\demo\dal\springboot\App.class
