@@ -1,0 +1,9 @@
+com\fico\data\ds\DataSourceConfig.class
+com\fico\data\ds\HikariDataSourceFactory$Processing.class
+com\fico\data\ds\DataSourceFactory.class
+com\fico\data\ds\DataSourceFactory$Transactional.class
+com\fico\data\ds\DataSourceFactory$Processing.class
+com\fico\data\ds\HikariDataSourceConfig.class
+com\fico\data\ds\HikariDataSourceFactory$Transactional.class
+com\fico\data\ds\HikariDataSourceFactory.class
+com\fico\data\util\LoadConfig.class
