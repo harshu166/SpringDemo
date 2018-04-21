@@ -1,0 +1,5 @@
+com\fico\demo\web\DataSourceConfiguration.class
+com\fico\demo\web\service\CategoryRestService.class
+com\fico\demo\web\springboot\App.class
+com\fico\demo\web\RestServiceController.class
+com\fico\demo\web\service\ItemRestService.class
