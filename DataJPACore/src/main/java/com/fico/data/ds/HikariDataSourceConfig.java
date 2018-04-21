@@ -54,7 +54,7 @@ public class HikariDataSourceConfig {
 		config.setUsername("admin");
 		config.setPassword("mysql");
 		config.setConnectionInitSql(initSQL);
-		config.setLeakDetectionThreshold(100);
+		config.setLeakDetectionThreshold(5000);
 	
 
 		config.addDataSourceProperty("cachePrepStmts", "true");

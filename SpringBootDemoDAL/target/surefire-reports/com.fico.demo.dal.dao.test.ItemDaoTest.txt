@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.fico.demo.dal.dao.test.ItemDaoTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.58 sec - in com.fico.demo.dal.dao.test.ItemDaoTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.588 sec - in com.fico.demo.dal.dao.test.ItemDaoTest

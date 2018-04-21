@@ -18,7 +18,7 @@ public class HikariPoolLoadTest {
 
 	private static MetricRegistry metricRegistry = new MetricRegistry();
 	
-	private static int MAX_ITERATIONS = 1000;
+	private static int MAX_ITERATIONS = 2000;
 	private static Slf4jReporter logReporter = Slf4jReporter.forRegistry(metricRegistry).outputTo(LOGGER).build();
 	private static ConsoleReporter consoleReporter = ConsoleReporter.forRegistry(metricRegistry)
 			.convertRatesTo(TimeUnit.SECONDS).convertDurationsTo(TimeUnit.MILLISECONDS).build();
@@ -46,7 +46,7 @@ public class HikariPoolLoadTest {
 		try {
 			for (int i = 0; i < MAX_ITERATIONS; i++) {
 				Timer.Context context = timer.time();
-				getDataSource().getConnection();				
+				getDataSource().getConnection().close();			
 				context.stop();
 				
 			}
